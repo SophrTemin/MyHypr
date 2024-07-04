@@ -10,4 +10,4 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 - setting grub.cfg in /etc/default/grub
 - ```sudo grub-mkconfig -o /boot/grub/grub.cfg```
 # Enjoy!
-![logo](logo.png)
+![logo](image.jpg)
