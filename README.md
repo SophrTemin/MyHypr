@@ -1,5 +1,7 @@
 ## 🖥️ My Hyprland desktop
 I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don't care about minimalism. I had BSPWM before, but I figured out why I was getting a hard time with it. 
+## Other themes
+- tg theme: [click](https://t.me/addtheme/gruvmaterialdark)
 ### 💾 How to install
 - ```git clone https://github.com/SophrTemin/MyHypr```
 - ```cd MyHypr```
