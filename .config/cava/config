@@ -1,0 +1,17 @@
+[input]
+# Methods: pipewire, pulse, alsa
+method = pulse
+source = auto
+
+[color]
+
+gradient = 1
+gradient_count = 8
+gradient_color_1 = '#ebdbb2'
+gradient_color_2 = '#ebdbb2'
+gradient_color_3 = '#ebdbb2'
+gradient_color_4 = '#ebdbb2'
+gradient_color_5 = '#ebdbb2'
+gradient_color_6 = '#ebdbb2'
+gradient_color_7 = '#ebdbb2'
+gradient_color_8 = '#ebdbb2'

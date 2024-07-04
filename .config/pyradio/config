@@ -1,0 +1,23 @@
+player = mpv,mplayer,vlc
+open_last_playlist = False
+default_playlist = FarParticul
+default_station = False
+default_encoding = utf-8
+enable_mouse = True
+enable_notifications = -1
+use_station_icon = True
+connection_timeout = 10
+force_http = False
+theme = gruvbox
+use_transparency = False
+force_transparency = False
+calculated_color_factor = 0
+confirm_station_deletion = True
+confirm_playlist_reload = True
+auto_save_playlist = False
+show_no_themes_message = True
+show_recording_message = True
+remote_control_server_ip = localhost
+remote_control_server_port = 9998
+remote_control_server_auto_start = False
+
