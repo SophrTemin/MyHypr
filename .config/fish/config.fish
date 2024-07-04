@@ -1,22 +1,21 @@
 if status is-interactive
 export MICRO_TRUECOLOR=1
-    # Commands to run in interactive sessions can go here
 end
 
-# Алиасы
+# Aliases
  alias sysinf="fastfetch"
 # alias reboot="/usr/bin/systemctl reboot"
 
-# Снос ебучей начайльной фразы
+# Disable start text fish
 set -g fish_greeting
 
 function fish_greeting
     sysinf
 end
 
-#Автостарт DM
-#if [ "$(tty)" = "/dev/tty1" ];then   
-#    exec Hyprland 
+# Autostart Hypr
+#if [ (tty) = "/dev/tty1" ]
+#    exec Hyprland
 #end
 
 #!/usr/bin/fish
