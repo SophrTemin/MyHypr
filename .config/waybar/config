@@ -65,6 +65,12 @@
 		"tooltip": false
 	},
 
+    "custom/logo": {
+        "format": "           ",
+        "tooltip": false,
+	"on-click": "rofi -show drun -config ~/.config/rofi/rofi.rasi"
+	},
+
 	"hyprland/workspaces": {
 		"format": "{icon}",
 		"on-click": "activate",
