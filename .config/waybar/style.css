@@ -40,4 +40,10 @@ window#waybar {
 	margin: 10px;
 }
 
+#custom-logo {
+    background-image: url("~/.config/waybar/logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px; 
+}
 
