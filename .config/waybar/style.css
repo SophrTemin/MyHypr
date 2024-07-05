@@ -1,4 +1,4 @@
-@define-color bg  #1D2021;
+@define-color bg  rgba(29, 32, 33, 0.6);
 @define-color fg  #FBF1C7;
 @define-color gr  #EBDBB2;
 @define-color rd  #8EC07C;
@@ -29,7 +29,7 @@ window#waybar {
 .modules-center,
 .modules-left {
 	background: @bg;
-	margin: 1px;
+	margin: 3px 3px 3px;
 	border: 1px solid @fg;
 	border-radius: 8px;
 }
