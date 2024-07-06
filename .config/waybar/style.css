@@ -1,14 +1,14 @@
-@define-color bg  rgba(29, 32, 33, 0.6);
+@define-color bg  #1D2021;
 @define-color fg  #FBF1C7;
 @define-color gr  #EBDBB2;
 @define-color rd  #8EC07C;
 
 * {
-	border-radius: 8;
+	border-radius: 6;
 	font-family: JetBrainsMono-Bold, Symbols Nerd Font;
-	font-size: 12px;
+	font-size: 13px;
 	padding: 1px;
-	margin: 0px 2px;
+	margin: 0px 1px;
 
 }
 
@@ -29,8 +29,8 @@ window#waybar {
 .modules-center,
 .modules-left {
 	background: @bg;
-	margin: 3px 3px 3px;
-	border: 1px solid @fg;
+	margin: 3px 7px 3px;
+	border: 2px solid @fg;
 	border-radius: 8px;
 }
 
@@ -40,10 +40,9 @@ window#waybar {
 	margin: 10px;
 }
 
-#custom-logo {
-    background-image: url("~/.config/waybar/logo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 20px; 
+#clock,
+#custom-weather,
+#cpu,
+#tray {
+	margin: 3px 7px 3px; 
 }
-
