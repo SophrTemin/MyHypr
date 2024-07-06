@@ -1,9 +1,9 @@
 {
 	"position":"top",
-	"height": 32, 
+	"height": 20, 
 	"width": 1320, 
 	"margin-top": 5,
-	"spacing": 10,
+	"spacing": 15,
 
 
 		"modules-left": ["clock", "custom/weather"],
