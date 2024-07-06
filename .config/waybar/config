@@ -6,9 +6,9 @@
 	"spacing": 10,
 
 
-		"modules-left": ["custom/spac1", "clock", "custom/sep", "custom/weather", "custom/spac"],
-		"modules-center":["custom/logo", "hyprland/workspaces"],
-		"modules-right":["custom/spac1", "tray", "custom/sep", "hyprland/language", "custom/sep", "pulseaudio", "custom/sep" , "cpu", "custom/spac"],
+		"modules-left": ["clock", "custom/weather"],
+		"modules-center":["hyprland/workspaces"],
+		"modules-right":["tray", "hyprland/language", "pulseaudio", "cpu"],
 
 	"pulseaudio": {
 		"scroll-step": 5,
@@ -47,28 +47,6 @@
 		"interval": 600,
 		"exec": "/home/far/.config/waybar/wet.sh",
 		"tooltip": false
-	},
-
-
-	"custom/spac1":{
-		"format": " ",
-		"tooltip": false
-	},
-
-	"custom/spac": {
-		"format": " ",
-		"tooltip": false
-	},
-
-        "custom/sep": {
-        	"format": " ‖ ", //‖
-		"tooltip": false
-	},
-
-    "custom/logo": {
-        "format": "           ",
-        "tooltip": false,
-	"on-click": "rofi -show drun -config ~/.config/rofi/rofi.rasi"
 	},
 
 	"hyprland/workspaces": {
