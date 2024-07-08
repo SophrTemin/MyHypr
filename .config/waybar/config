@@ -1,77 +1,23 @@
 {
+	"include": "~/.config/waybar/modules",
 	"position":"top",
 	"height": 20, 
 	"width": 1320, 
 	"margin-top": 5,
 	"spacing": 15,
 
+	"modules-left":[
+		"clock",
+		"custom/weather"
+		],
 
-		"modules-left": ["clock", "custom/weather"],
-		"modules-center":["hyprland/workspaces"],
-		"modules-right":["tray", "hyprland/language", "pulseaudio", "cpu"],
+	"modules-center":[
+		"hyprland/workspaces"
+		],
 
-	"pulseaudio": {
-		"scroll-step": 5,
-		"format": "{icon} {volume}",
-		"format-icons": {
-			"default": [" ", " ", " "]
-		},
-		"on-click": "pavucontrol"
-	},
-	
-	"cpu": {
-	    "interval": 5,
-	    "format": "  {}",
-	    "max-length": 10
-	},
-
-	"hyprland/language": {
-		"format": " {}",
-		"format-en": " US",
-		"format-ru": " RU",
-	},
-    
-	"clock": {
-		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-		"format-alt": "  {:%Y-%m-%d}",
-		"format": "  {:%H:%M}"
-	},
-
-	"tray": {
-		"icon-size": 11,
-		"spacing": 3
-	},
-
-	"custom/weather": {
-		"format": "   {}",
-		"interval": 600,
-		"exec": "/home/far/.config/waybar/wet.sh",
-		"tooltip": false
-	},
-
-	"hyprland/workspaces": {
-		"format": "{icon}",
-		"on-click": "activate",
-		"all-outputs": "true",
-		"format-icons": {
-			"1": "",
-			"2": "",
-			"3": "",
-			"4": "",
-			"5": "",
-			"active": "",
-			},
-		//"format-icons": {
-		//	"1": "󰇧",
-		//	"2": "󰭹",
-		//	"3": "",
-		//	"4": "",
-		//	"5": "",
-		//	},
-		// If you need icons)
-		"tooltip": false,
-        "persistent_workspaces": {
-	        "*": 5
-	}
-      }
+	"modules-right":[
+		"tray",
+		"hyprland/language",
+		"pulseaudio"
+		],
 }
