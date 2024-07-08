@@ -28,7 +28,7 @@
 	"custom/weather": {
 		"format": "   {}",
 		"interval": 600,
-		"exec": "/home/far/.config/waybar/mods/wet.sh",
+		"exec": "/home/far/.config/waybar/wet.sh",
 		"tooltip": false
 	},
 
