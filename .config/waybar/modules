@@ -1,0 +1,52 @@
+{
+	"pulseaudio": {
+		"scroll-step": 5,
+		"format": "{icon} {volume}",
+		"format-icons": {
+			"default": [" ", " ", " "]
+		},
+		"on-click": "pavucontrol"
+	},
+
+	"hyprland/language": {
+		"format": " {}",
+		"format-en": " US",
+		"format-ru": " RU",
+	},
+    
+	"clock": {
+		"locale": "ru_RU.UTF-8",
+		"timezone": "Asia/Yekaterinburg",
+		"format": "{:L%R %d/%m  %a}"
+	},
+
+	"tray": {
+		"icon-size": 11,
+		"spacing": 3
+	},
+
+	"custom/weather": {
+		"format": "   {}",
+		"interval": 600,
+		"exec": "/home/far/.config/waybar/mods/wet.sh",
+		"tooltip": false
+	},
+
+	"hyprland/workspaces": {
+		"format": " {icon} ",
+		"on-click": "activate",
+		"all-outputs": "true",
+		"format-icons": {
+			"1": "",
+			"2": "",
+			"3": "",
+			"4": "",
+			"5": "",
+			"active": "",
+			},
+		"tooltip": false,
+        "persistent_workspaces": {
+	        "*": 5
+	}
+      }
+}
