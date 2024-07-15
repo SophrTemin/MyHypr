@@ -15,3 +15,7 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 - ```sudo grub-mkconfig -o /boot/grub/grub.cfg```
 # Enjoy! (this video)
 [![logo](https://github.com/SophrTemin/MyHypr/blob/main/video.png)](https://www.youtube.com/watch?v=5vZkjzK7VmQ)
+
+# Updates
+15/07 - changed repo name
+
