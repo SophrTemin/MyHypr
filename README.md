@@ -18,4 +18,4 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 
 # Updates
 15/07 - changed repo name
-
+16/07 - added config mako and add line exec-once in hyprland.conf
