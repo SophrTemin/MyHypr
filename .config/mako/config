@@ -1,5 +1,4 @@
 sort=+time
-on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
 font=JetBrains Mono 11
 background-color=#1D2021
 text-color=#FBF1C7
