@@ -17,6 +17,9 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 [![logo](https://github.com/SophrTemin/MyHypr/blob/main/video.png)](https://www.youtube.com/watch?v=5vZkjzK7VmQ)
 
 # Updates
-15/07 - changed repo name
-16/07 11:00 - added config mako and add line exec-once in hyprland.conf
-16/07 12:30 - added power menu option, bind and volume binds. Deleted latest power binds
+
+**15/07 - changed repo name**
+
+**16/07 11:00 - added config mako and add line exec-once in hyprland.conf**
+
+**16/07 12:30 - added power menu option, bind and volume binds. Deleted latest power binds**
