@@ -17,8 +17,11 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 - setting grub.cfg in /etc/default/grub
 - ```sudo grub-mkconfig -o /boot/grub/grub.cfg```
 
-### Pallete
+## Pallete
 ![pallete](pallete_table.png)
+
+## Custom somefetch(I have a binary, and it's custom.)
+![somefetch](somefetch.png)
 
 # Enjoy! (this video)
 [![logo](https://github.com/SophrTemin/MyHypr/blob/main/video.png)](https://www.youtube.com/watch?v=5vZkjzK7VmQ)
@@ -34,3 +37,5 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 **17/07 - Added vesktop/other theme and added Pallete table for README.md**
 
 **18/07 - Added somefetch(fastfetch remains)**
+
+**18/07 - Added png somefetch**
