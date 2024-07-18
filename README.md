@@ -39,3 +39,5 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 **18/07 - Added somefetch(fastfetch remains)**
 
 **18/07 - Added png somefetch**
+
+**18/07 - Added mako option icon-path**

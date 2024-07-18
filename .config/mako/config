@@ -12,6 +12,7 @@ border-color=#EBDBB2
 border-radius=8
 progress-color=over #EBDBB2
 icons=1
+icon-path=/home/far/.icons/icon
 max-icon-size=34
 icon-location=left
 actions=1
