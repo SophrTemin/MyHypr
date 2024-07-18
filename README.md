@@ -43,3 +43,5 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 **18/07 - Added mako option icon-path**
 
 **18/07 - Added padding for kitty(foot coming soon...)**
+
+**19/07 - Remade icons in module workspaces**

@@ -37,12 +37,9 @@
 		"on-click": "activate",
 		"all-outputs": "true",
 		"format-icons": {
-			"1": "",
-			"2": "",
-			"3": "",
-			"4": "",
-			"5": "",
+			"urgent": "",
 			"active": "",
+			"default": ""
 			},
 		"tooltip": false,
         "persistent_workspaces": {
