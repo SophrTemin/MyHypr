@@ -22,5 +22,5 @@ text-alignment=center
 default-timeout=10000
 ignore-timeout=0
 max-visible=5
-layer=bottom
-anchor=bottom-center
+layer=top
+anchor=top-center
