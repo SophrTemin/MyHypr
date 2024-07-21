@@ -47,3 +47,5 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 **19/07 - Remade icons in module workspaces**
 
 **20/07 - changed notify position in top-center**
+
+**21/07 - added foot terminal config(kitty remains)**
