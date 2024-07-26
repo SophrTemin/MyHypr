@@ -1,8 +1,7 @@
 {
 	"pulseaudio": {
 		"scroll-step": 5,
-		"format": "{icon}{volume}",
-    "rotate": 270,
+		"format": "{icon} {volume}",
 		"format-icons": {
 			"default": [" ", " ", " "]
 		},
@@ -11,24 +10,25 @@
 
 	"hyprland/language": {
 		"format": " {}",
-    "rotate": 270,
-		"format-en": "US",
-		"format-ru": "RU",
+		"format-en": " US",
+		"format-ru": " RU",
 	},
     
 	"clock": {
 		"locale": "ru_RU.UTF-8",
-    "rotate": 270,
 		"timezone": "Asia/Yekaterinburg",
-		"format": "{:L%R %a}"
+		"format": "{:L%R %d/%m  %a}"
 	},
 
+	"tray": {
+		"icon-size": 11,
+		"spacing": 3
+	},
 
 	"custom/weather": {
-		"format": " {}",
-    "rotate": 270,
+		"format": "   {}",
 		"interval": 600,
-		"exec": "/home/far/.config/waybar/mods/wet.sh",
+		"exec": "/home/far/.config/waybar/wet.sh",
 		"tooltip": false
 	},
 

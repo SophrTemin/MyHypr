@@ -1,0 +1,48 @@
+@define-color bg  #1D2021;
+@define-color fg  #FBF1C7;
+@define-color gr  #EBDBB2;
+@define-color rd  #8EC07C;
+
+* {
+	border-radius: 6;
+	font-family: JetBrainsMono-Bold, Symbols Nerd Font;
+	font-size: 13px;
+	padding: 1px;
+	margin: 0px 1px;
+
+}
+
+window#waybar {
+	background: transparent
+}
+
+#workspaces button:hover,
+#workspaces button.active {
+	color: @gr;
+}
+
+#workspaces button.urgent {
+	color: @rd;
+}
+
+.modules-right,
+.modules-center,
+.modules-left {
+	background: @bg;
+	margin: 3px 5px 3px;
+	border: 2px solid @fg;
+	border-radius: 8px;
+}
+
+
+#clock 
+#custom-weather {
+	margin: 10px;
+}
+
+#clock,
+#custom-weather,
+#cpu,
+#tray {
+	margin: 3px 5px 3px; 
+}

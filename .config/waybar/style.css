@@ -1,24 +1,29 @@
 @define-color bg  #1D2021;
+@define-color bgg #282828;
+@define-color ye  #FABD2F;
+@define-color bl  #83A598;
 @define-color fg  #FBF1C7;
 @define-color gr  #EBDBB2;
 @define-color rd  #8EC07C;
 
 * {
-	border-radius: 6;
-	font-family: JetBrainsMono-Bold, Symbols Nerd Font;
+	font-family: JetBrainsMono, Symbols Nerd Font;
 	font-size: 13px;
 	padding: 1px;
-	margin: 0px 1px;
-
 }
 
 window#waybar {
-	background: transparent
+  background: @bg;
+  border: 1px solid @fg;
+  border-radius: 11px;
 }
 
-#workspaces button:hover,
+
+#workspaces button.visible,
+#workspaces button.empty,
+#workspaces button.persistent,
 #workspaces button.active {
-	color: @gr;
+	color: @fg;
 }
 
 #workspaces button.urgent {
@@ -28,21 +33,9 @@ window#waybar {
 .modules-right,
 .modules-center,
 .modules-left {
-	background: @bg;
-	margin: 3px 5px 3px;
-	border: 2px solid @fg;
-	border-radius: 8px;
-}
-
-
-#clock 
-#custom-weather {
-	margin: 10px;
-}
-
-#clock,
-#custom-weather,
-#cpu,
-#tray {
-	margin: 3px 5px 3px; 
+  margin: 1px 5px;
+  border: 2px solid @bg;
+  border-radius: 11px;
+  background: @bg;
+  color: @fg;
 }

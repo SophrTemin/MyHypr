@@ -51,3 +51,5 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 **21/07 - added foot terminal config(kitty remains)**
 
 **26/07 - Added it's owm theme for vesktop/betterdiscord**
+
+## **27/07 - rebuilt the panel from scratch**
