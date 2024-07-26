@@ -1,0 +1,35 @@
+/**
+ * @name sophrgruv
+ * @description Gruvbox theme for vesktop/betterdiscord
+ * @author Sophron Teminik
+ * @version 0.1
+ * @source https://github.com/sophrtemin/myhyprland/blob/main/sophrgruv.theme.css
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+
+:root {
+  --accentcolor: 168,153,132;
+  --accentcolor2: 184,187,38;
+  --linkcolor: 216,134,155;
+  --mentioncolor: 254,128,25;
+  --textbrightest: 251,241,199;
+  --textbrighter: 235,219,178;
+  --textbright: 213,196,161;
+  --textdark: 189,174,147;
+  --textdarker: 168,153,132;
+  --textdarkest: 50,48,47;
+  --font: JetBrains Mono;
+  --backgroundaccent: 29,32,33;
+  --backgroundprimary: 40,40,40;
+  --backgroundsecondary: 50,48,47;
+  --backgroundsecondaryalt: 80,73,69;
+  --backgroundtertiary: 40,40,40;
+  --backgroundfloating: 40,40,40;
+  --settingsicons: 1;
+}
+
+/* Any custom CSS below here */
+
+
+
