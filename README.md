@@ -53,3 +53,5 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 **26/07 - Added it's owm theme for vesktop/betterdiscord**
 
 ## **27/07 - rebuilt the panel from scratch**
+
+**27/07 - Changed video.png file(new video rice is coming soon)**
