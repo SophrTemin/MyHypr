@@ -24,7 +24,7 @@ I'm using openSUSE, I'm not going to leave it. 3k+ packages and it's fine, I don
 ![somefetch](somefetch.png)
 
 # Enjoy! (this video)
-[![logo](https://github.com/SophrTemin/MyHypr/blob/main/video.png)](https://www.youtube.com/watch?v=5vZkjzK7VmQ)
+[![logo](https://github.com/SophrTemin/MyHypr/blob/main/video.pn)](https://www.youtube.com/watch?v=5vZkjzK7VmQ)
 
 # Updates
 
